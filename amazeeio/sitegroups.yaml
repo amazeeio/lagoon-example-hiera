@@ -1,0 +1,14 @@
+---
+amazeeio_sitegroups:
+  drupal-example:
+    client: exampleclient
+    git_url: git@github.com:amazeeio/drupal-example.git
+    slack:
+      webhook: https://hooks.slack.com/services/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
+      channel: lagoon-kickstart
+    openshift:
+      console: https://my.openshift.server.com
+      token: xxxyyyzzz
+    active_systems:
+      deploy: lagoon_openshiftBuildDeploy
+      remove: lagoon_openshiftRemove
